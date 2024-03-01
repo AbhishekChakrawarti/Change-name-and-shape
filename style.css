@@ -1,0 +1,42 @@
+.outer{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    /* z-index: 9999; */
+    background-color: white; 
+    /* border-bottom: 80px solid red;
+    border-right: 80px solid transparent; */
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+button{
+    margin: 30px;
+    transition: transform 1s;
+}
+
+button:hover{
+    transform: scale(1.5);
+}
+
+#rightAngle{
+    height: 0px;
+    width : 0px;
+    background-color: transparent;
+    border-bottom : 100px solid red;
+    border-right : 100px solid transparent;
+}
